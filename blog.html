@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon-atoms.png" type="image/png">
+    <title>Blog - Mon Site Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">MonSite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="bg-light py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Blog & Actualités</h1>
+            <p class="lead">Restez informé des dernières tendances et actualités du web</p>
+        </div>
+    </div>
+
+    <!-- Alert Section -->
+    <section class="py-3">
+        <div class="container">
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                <strong>Nouveau !</strong> Découvrez notre dernier article sur les tendances web 2026.
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Événement !</strong> Inscrivez-vous à notre webinaire gratuit sur le développement web moderne.
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Article -->
+    <section class="py-4">
+        <div class="container">
+            <div class="card shadow-lg">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/c9170f27-a933-4232-a340-326510b69b11.png"
+                            class="img-fluid h-100 object-fit-cover" alt="Article vedette">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">Article vedette</span>
+                            <h2 class="card-title">Les Tendances du Développement Web en 2026</h2>
+                            <p class="text-muted mb-3"><small>Publié le 15 janvier 2026 par Jassem et Roua </small></p>
+                            <p class="card-text">Découvrez les technologies et pratiques qui vont révolutionner le
+                                développement web cette année. De l'IA à la réalité augmentée, explorez les innovations
+                                qui façonnent l'avenir du web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Articles Grid -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4">Articles Récents</h2>
+            <div class="row g-4">
+                <!-- Article 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/fec24f10-4474-4588-bf21-3dc7a2366dee.png"
+                            class="card-img-top" alt="Article">
+                        <div class="card-body">
+                            <span class="badge bg-secondary mb-2">Développement</span>
+                            <h5 class="card-title">Guide complet du développement React</h5>
+                            <p class="text-muted mb-2"><small>10 janvier 2026</small></p>
+                            <p class="card-text">Maîtrisez React avec ce guide complet couvrant les hooks, le state
+                                management et les meilleures pratiques.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/132383c6-ffb6-4c3f-a7a2-4bcdb2331579.png"
+                            class="card-img-top" alt="Article">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Design</span>
+                            <h5 class="card-title">Principes de design UX/UI modernes</h5>
+                            <p class="text-muted mb-2"><small>8 janvier 2026</small></p>
+                            <p class="card-text">Apprenez les principes fondamentaux du design d'interface pour créer
+                                des expériences utilisateur exceptionnelles.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/c9170f27-a933-4232-a340-326510b69b11.png"
+                            class="card-img-top" alt="Article">
+                        <div class="card-body">
+                            <span class="badge bg-warning mb-2">SEO</span>
+                            <h5 class="card-title">Optimisation SEO en 2026</h5>
+                            <p class="text-muted mb-2"><small>5 janvier 2026</small></p>
+                            <p class="card-text">Les stratégies SEO les plus efficaces pour améliorer votre visibilité
+                                en ligne et attirer plus de visiteurs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/6c5942cc-ab8f-4a8c-b8d0-437423aaf90f.png"
+                            class="card-img-top" alt="Article">
+                        <div class="card-body">
+                            <span class="badge bg-info mb-2">Business</span>
+                            <h5 class="card-title">Stratégies digitales pour PME</h5>
+                            <p class="text-muted mb-2"><small>3 janvier 2026</small></p>
+                            <p class="card-text">Comment les petites et moyennes entreprises peuvent tirer parti du
+                                digital pour accélérer leur croissance.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/5b19a838-b3e8-4935-a634-42b10c29fedc.png"
+                            class="card-img-top" alt="Article">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Mobile</span>
+                            <h5 class="card-title">Développement d'apps mobiles natives vs hybrides</h5>
+                            <p class="text-muted mb-2"><small>1 janvier 2026</small></p>
+                            <p class="card-text">Comparaison détaillée des approches de développement mobile pour
+                                choisir la meilleure solution.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Article 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 shadow-sm hover-card">
+                        <img src="https://mgx-backend-cdn.metadl.com/generate/images/590762/2026-01-17/884213b4-7d07-47ed-8c50-7322e0c01a7d.png"
+                            class="card-img-top" alt="Article">
+                        <div class="card-body">
+                            <span class="badge bg-dark mb-2">Sécurité</span>
+                            <h5 class="card-title">Sécurité web : meilleures pratiques</h5>
+                            <p class="text-muted mb-2"><small>28 décembre 2025</small></p>
+                            <p class="card-text">Protégez vos applications web contre les menaces courantes avec ces
+                                pratiques de sécurité essentielles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>MonSite</h5>
+                    <p>Votre partenaire pour des solutions digitales innovantes</p>
+                </div>
+            </div>
+            <hr class="bg-white">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2026 MonSite. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
