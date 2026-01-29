@@ -14,20 +14,7 @@ body {
     color: #212529;
 }
 
-/* Navbar Styles */
-.navbar-brand {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
 
-.nav-link {
-    font-weight: 500;
-    transition: color 0.3s ease;
-}
-
-.nav-link:hover {
-    color: rgba(255, 255, 255, 0) !important;
-}
 
 /* Carousel Styles */
 .carousel-item {
